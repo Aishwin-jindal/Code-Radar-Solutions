@@ -11,5 +11,4 @@ int main(){
     else(a!=b!=c){
         printf("Scalene")
     }
-    return 0;
 }
