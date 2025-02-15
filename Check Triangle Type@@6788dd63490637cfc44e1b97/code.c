@@ -9,6 +9,6 @@ int main(){
         printf("Isosceles");
     }
     else(a!=b!=c){
-        printf("Scalene")
+        printf("Scalene");
     }
 }
