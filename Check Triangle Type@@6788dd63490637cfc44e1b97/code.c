@@ -2,12 +2,12 @@
 int main(){
     int a,b,c;
     scanf("%d  %d  %d \n", &a, &b, &c);
-    if(a==b && b==c && a==c){
-        prinft("Equilateral  ");
+    if(a==b==c){
+        prinft("Equilateral ");
     }else if((a==b && b!=c) ||(a!=b && b==c)){
-        printf("Isosceles  ");
+        printf("Isosceles ");
     }else{
-        printf("Scalene  ");
+        printf("Scalene ");
     }
     return 0;
 }
