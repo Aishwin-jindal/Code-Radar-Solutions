@@ -12,9 +12,9 @@ if(a+b>c&&b+c>a&&a+c>b){
     {
         printf("Isosceles");
     }
-}
+
 else
-{
-    printf("Scalene");
+{printf("Scalene");}
 }
+
 }
