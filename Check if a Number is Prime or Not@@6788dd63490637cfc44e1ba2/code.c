@@ -2,7 +2,7 @@
 int main() {
     int n, i;
     scanf("%d", &n);
-    for (i = 0; i * i <= n && n > 1; i++);
+    for (i = 0; n * i <= n && n > 1; i++);
     printf("Prime\n", n, (n > 1 && i * i > n) ? " ": "Not Prime\n");
     return 0;
 }
