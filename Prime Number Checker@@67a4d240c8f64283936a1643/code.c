@@ -11,15 +11,17 @@ int isPrime(int num) {
     return 1; 
 
 int main() {
-    int num;
-    printf("Enter a number: ");
-    scanf("%d", &num);
-    
-    if (isPrime(num)) {
-        printf("%d is a prime number.\n", num);
-    } else {
-        printf("%d is not a prime number.\n", num);
+    int t;
+    scanf("%d", &t);
+    int check = isPrime(num);
+    while (1) {
+        if (check) {
+            printf("%d is a prime number.\n", num);
+            break;
+        } else {
+            printf("%d is not a prime number.\n", num);
+            break;
+        }
     }
-    
     return 0;
 }
