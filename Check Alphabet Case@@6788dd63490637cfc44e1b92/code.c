@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int ch;
+    int ch,a,z,A,Z;
     scanf("%c", &ch);
     if(a<<ch<<z){
         printf("Uppercase");
