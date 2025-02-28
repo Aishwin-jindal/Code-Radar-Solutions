@@ -3,27 +3,27 @@ int main(){
     int a,b,c;
     scanf("%d %d %d", &a,&b,&c);
     if(a>b>c){
-        printf(a);
+        printf("%d", &a);
     }
     else if(a>b && a>c){
         if(b>c){
-            printf(b);
+            printf("%d", &b);
 
         }
         else{
-            printf(c);
+            printf("%d",&c);
         }
         else if(a<b && a<c){
             if(b>c){
-            printf(b);
+            printf("%d", &b);
 
             }
             else{
-                printf(c);
+                printf("%d", &c);
             }
         }
         else {
-            printf(c);
+            printf("%d", &c);
         }
 
     }
