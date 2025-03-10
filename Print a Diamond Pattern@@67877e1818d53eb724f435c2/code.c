@@ -2,14 +2,14 @@
 int main() {
     int n;
     scanf("%d", &n);
-    for (i = 1; i <= n; i += 2) {
-        for (j = 0; j < (n - i) / 2; j++) printf(" ");
-        for (j = 0; j < i; j++) printf("*");
+    for (int i = 1; i <= n; i += 2) {
+        for (int j = 0; j < (n - i) / 2; j++) printf(" ");
+        for (int j = 0; j < i; j++) printf("*");
         printf("\n");
     }
-    for (i = n - 2; i > 0; i -= 2) {
-        for (j = 0; j < (n - i) / 2; j++) printf(" ");
-        for (j = 0; j < i; j++) printf("*");
+    for (int i = n - 2; i > 0; i -= 2) {
+        for (int j = 0; j < (n - i) / 2; j++) printf(" ");
+        for (int j = 0; j < i; j++) printf("*");
         printf("\n");
     }
     return 0;
