@@ -2,7 +2,6 @@
 
 int main() {
     int n, i, j;
-    printf("Enter an odd number: ");
     scanf("%d", &n);
 
     for (i = 1; i <= n; i += 2) {
