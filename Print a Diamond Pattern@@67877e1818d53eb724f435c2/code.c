@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main() {
-    int n, i, j;
-    printf("Enter an odd number: ");
+    int n;
     scanf("%d", &n);
     for (i = 1; i <= n; i += 2) {
         for (j = 0; j < (n - i) / 2; j++) printf(" ");
