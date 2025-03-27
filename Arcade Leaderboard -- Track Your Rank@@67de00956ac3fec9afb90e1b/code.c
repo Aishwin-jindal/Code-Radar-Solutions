@@ -4,7 +4,6 @@ int n,m;
 scanf("%d", &n);
 int ranked[200000];
 for(int i=0;i<=n;i++)
-scanf("%d", &player[i]);
 scanf("%d", &ranked[i]);
 scanf("%d", &m);
 
