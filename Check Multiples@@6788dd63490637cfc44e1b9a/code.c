@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main(){
+    int c;
     int num1, num2;
     scanf("%d %d",&num1, &num2);
-    if(num1%num2==int)
+    if(num1%num2==int c)
     printf("Yes");
     else{
         printf("No");
