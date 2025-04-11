@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &num);
 
     if (num <= 1) {
-        isPrime = 0; // 0 and 1 are not prime
+        isPrime = 0; 
     } else {
         for (i = 2; i <= num / 2; i++) {
             if (num % i == 0) {
