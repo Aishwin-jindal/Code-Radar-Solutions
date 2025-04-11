@@ -4,11 +4,11 @@ int main(){
     scanf("%d %d", &a, &b);
     char o;
     scanf("%c", &o);
-    if(o == +){
+    if(o == '+'){
     printf("%d", a+b);}
-    else if(o == -){
+    else if(o == '-'){
     printf("%d", a-b);}
-    else if(o == *){
+    else if(o == '*'){
     printf("%d", a*b);}
     else{
     printf("%d", a/b);}
