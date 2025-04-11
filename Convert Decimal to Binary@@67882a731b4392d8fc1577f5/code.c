@@ -10,7 +10,7 @@ int main(){
     int result =0;
     int count=0;
     while(num>0){
-        result=result+10+(num%2);
+        result=result*10+(num%2);
         num=num/2;
         count++;
     }
